@@ -1,0 +1,32 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: transparent;
+    border: 5px solid #333;
+    border-radius: 10px;
+}
+.button{
+    background-color: blue;
+    color: blue;
+}
